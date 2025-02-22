@@ -67,10 +67,6 @@ A modern, beautiful interface for discovering and managing academic research pap
 4. Use the share buttons to share interesting papers
 5. Access your saved papers through the Favorites button
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## 📄 License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
