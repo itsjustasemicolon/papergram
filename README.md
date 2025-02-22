@@ -46,7 +46,7 @@ A modern, beautiful interface for discovering and managing academic research pap
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cneuralnetwork/papergram.git
+   git clone https://github.com/itsjustasemicolon/papergram.git
    ```
 
 2. Navigate to the project directory:
@@ -77,6 +77,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👏 Credits
-
-Created by [cneuralnetwork](https://cneuralnets.netlify.app)
