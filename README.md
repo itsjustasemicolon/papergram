@@ -4,11 +4,11 @@ A modern, beautiful interface for discovering and managing academic research pap
 
 <div align="center">
 
-<a href="https://papergram.netlify.app">
+<a href="[https://papergram.netlify.app](https://itsjustasemicolon-papergram.netlify.app/)">
     <img src="./img/home.png" alt="Paper Gram Preview" width="100%">
 </a>
 
-[Try Paper Gram →](https://papergram.netlify.app)
+[Try Paper Gram →]([https://papergram.netlify.app](https://itsjustasemicolon-papergram.netlify.app/))
 
 </div>
 
