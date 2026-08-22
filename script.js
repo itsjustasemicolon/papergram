@@ -259,7 +259,7 @@ function renderPapers() {
                             </button>
                         </div>
                         <div class="paper-header">
-                            <h2 class="title">${paper.title}</h2>
+                            <h2 class="title"><a href="${paper.link}" target="_blank" rel="noopener noreferrer">${paper.title}</a></h2>
 <div class="authors">${paper.authors.split(', ').length > 4 ? paper.authors.split(', ').slice(0, 4).join(', ') + ', et al.' : paper.authors}</div>
 
                         </div>
