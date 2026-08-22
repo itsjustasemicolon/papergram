@@ -52,8 +52,12 @@ async function fetchPapers(start = 0) {
 
     try {
         const query = 'cat:cs.AI+OR+cat:cs.LG+OR+cat:cs.CL+OR+cat:cs.CV+OR+cat:stat.ML';
+        const arxivUrl = `https://export.arxiv.org/api/query?search_query=${query}&start=${start}&max_results=10&sortBy=submittedDate&sortOrder=descending`;
+        // arXiv's export API does not reliably return Access-Control-Allow-Origin,
+        // so the browser blocks a direct cross-origin fetch. Routing through a
+        // CORS proxy adds that header so the response can actually be read here.
         const response = await fetch(
-            `https://export.arxiv.org/api/query?search_query=${query}&start=${start}&max_results=10&sortBy=submittedDate&sortOrder=descending`
+            `https://api.allorigins.win/raw?url=${encodeURIComponent(arxivUrl)}`
         );
         const text = await response.text();
         const parser = new DOMParser();
